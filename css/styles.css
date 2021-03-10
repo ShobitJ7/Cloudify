@@ -15,6 +15,12 @@
   box-sizing: border-box;
 }
 
+html,body
+{
+    width: 100%;
+    overflow-x: hidden; 
+}
+
 /* Typography */
 ::selection {
   background: var(--color-primary);
